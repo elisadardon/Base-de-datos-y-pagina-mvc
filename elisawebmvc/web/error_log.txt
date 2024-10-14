@@ -1,0 +1,330 @@
+[17-Aug-2024 21:26:42 UTC] PHP Warning:  include(modules/items/portfolio_item_one.php): Failed to open stream: No such file or directory in /Users/richardortiz/workspace/freelance/web/views/pages/portfolio/modules/portfolio_main.php on line 15
+[17-Aug-2024 21:26:42 UTC] PHP Warning:  include(): Failed opening 'modules/items/portfolio_item_one.php' for inclusion (include_path='.:/opt/homebrew/Cellar/php@8.2/8.2.21/share/php@8.2/pear') in /Users/richardortiz/workspace/freelance/web/views/pages/portfolio/modules/portfolio_main.php on line 15
+[17-Aug-2024 21:27:36 UTC] PHP Warning:  include(./items/portfolio_item_one.php): Failed to open stream: No such file or directory in /Users/richardortiz/workspace/freelance/web/views/pages/portfolio/modules/portfolio_main.php on line 15
+[17-Aug-2024 21:27:36 UTC] PHP Warning:  include(): Failed opening './items/portfolio_item_one.php' for inclusion (include_path='.:/opt/homebrew/Cellar/php@8.2/8.2.21/share/php@8.2/pear') in /Users/richardortiz/workspace/freelance/web/views/pages/portfolio/modules/portfolio_main.php on line 15
+[17-Aug-2024 21:28:11 UTC] PHP Warning:  include(portfolio/modules/items/portfolio_item_one.php): Failed to open stream: No such file or directory in /Users/richardortiz/workspace/freelance/web/views/pages/portfolio/modules/portfolio_main.php on line 15
+[17-Aug-2024 21:28:11 UTC] PHP Warning:  include(): Failed opening 'portfolio/modules/items/portfolio_item_one.php' for inclusion (include_path='.:/opt/homebrew/Cellar/php@8.2/8.2.21/share/php@8.2/pear') in /Users/richardortiz/workspace/freelance/web/views/pages/portfolio/modules/portfolio_main.php on line 15
+[17-Aug-2024 21:37:21 UTC] PHP Warning:  include(items/portfolio_item_six.php): Failed to open stream: No such file or directory in /Users/richardortiz/workspace/freelance/web/views/pages/portfolio/modules/portfolio_main.php on line 20
+[17-Aug-2024 21:37:21 UTC] PHP Warning:  include(): Failed opening 'items/portfolio_item_six.php' for inclusion (include_path='.:/opt/homebrew/Cellar/php@8.2/8.2.21/share/php@8.2/pear') in /Users/richardortiz/workspace/freelance/web/views/pages/portfolio/modules/portfolio_main.php on line 20
+[17-Aug-2024 21:48:01 UTC] PHP Warning:  include(modules/contact/contact.php): Failed to open stream: No such file or directory in /Users/richardortiz/workspace/freelance/web/views/template.php on line 35
+[17-Aug-2024 21:48:01 UTC] PHP Warning:  include(): Failed opening 'modules/contact/contact.php' for inclusion (include_path='.:/opt/homebrew/Cellar/php@8.2/8.2.21/share/php@8.2/pear') in /Users/richardortiz/workspace/freelance/web/views/template.php on line 35
+[01-Oct-2024 03:41:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PortfolioController" not found in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:43:18 Europe/Berlin] PHP Warning:  require_once(web\views\pages\portfolio\modules\controllers\controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:43:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'web\views\pages\portfolio\modules\controllers\controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:44:18 Europe/Berlin] PHP Warning:  require_once(web/views/pages/portfolio/modules/controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:44:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'web/views/pages/portfolio/modules/controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:47:32 Europe/Berlin] PHP Warning:  require_once(web/views/pages/portfolio/modules/controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:47:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'web/views/pages/portfolio/modules/controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:49:28 Europe/Berlin] PHP Warning:  require_once(portfolio/modules/controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:49:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'portfolio/modules/controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:51:43 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items/modules/controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:51:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items/modules/controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:51:44 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items/modules/controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 03:51:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items/modules/controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:09:29 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items/modules/controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:09:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items/modules/controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:13:26 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items/modules/controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:13:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items/modules/controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:15:31 Europe/Berlin] PHP Warning:  require_once(../controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:15:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:15:32 Europe/Berlin] PHP Warning:  require_once(../controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:15:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:18:44 Europe/Berlin] PHP Warning:  require_once(../controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:18:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:21:23 Europe/Berlin] PHP Warning:  require_once(../controllers/controller.portfolio.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 04:21:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../controllers/controller.portfolio.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:2
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 2
+[01-Oct-2024 06:13:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:83
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 83
+[01-Oct-2024 06:13:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:83
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 83
+[01-Oct-2024 06:15:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:66
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 66
+[01-Oct-2024 06:15:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:66
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 66
+[01-Oct-2024 06:20:46 Europe/Berlin] PHP Warning:  Undefined variable $portfolio in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 139
+[01-Oct-2024 06:20:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPortfolioItem() on null in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:139
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 139
+[01-Oct-2024 06:21:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:141
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 141
+[01-Oct-2024 06:21:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:141
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 141
+[01-Oct-2024 06:21:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:141
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 141
+[01-Oct-2024 06:21:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:141
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 141
+[01-Oct-2024 06:22:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::getPortfolioItem() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:141
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 141
+[01-Oct-2024 16:29:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PortfolioController::index() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php:4
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\portfolio_main.php(15): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(3): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\items\portfolio_item.php on line 4
+[02-Oct-2024 00:22:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method AboutController::getAboutSection() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\about\about_content.php:6
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\about_main.php(6): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(4): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\about\about_content.php on line 6
+[02-Oct-2024 00:23:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method AboutController::getAboutSection() in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\about\about_content.php:6
+Stack trace:
+#0 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\about_main.php(6): include()
+#1 C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\portfolio.php(4): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freelance-main\web\views\template.php(34): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freelance-main\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freelance-main\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\freelance-main\web\views\pages\portfolio\modules\about\about_content.php on line 6
+[12-Oct-2024 22:45:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'mceron' in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'mceron')
+#1 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\nav.php(7): titlesController->getGlobalVariable('title')
+#2 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\template.php(33): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php on line 12
+[12-Oct-2024 22:56:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'mceron' in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'mceron')
+#1 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\nav.php(7): titlesController->getGlobalVariable('title')
+#2 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\template.php(33): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php on line 12
+[12-Oct-2024 22:56:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'mceron' in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'mceron')
+#1 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\nav.php(7): titlesController->getGlobalVariable('title')
+#2 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\template.php(33): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php on line 12
+[12-Oct-2024 22:56:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'mceron' in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'mceron')
+#1 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\nav.php(7): titlesController->getGlobalVariable('title')
+#2 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\template.php(33): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php on line 12
+[12-Oct-2024 22:57:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'mceron' in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php(12): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'mceron')
+#1 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\nav.php(7): titlesController->getGlobalVariable('title')
+#2 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\template.php(33): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php(11): TemplateController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.titles.php on line 12
+[14-Oct-2024 01:24:38 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers): Failed to open stream: Permission denied in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php on line 8
+[14-Oct-2024 01:24:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required './controllers/' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php on line 8
+[14-Oct-2024 01:28:39 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers): Failed to open stream: Permission denied in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php on line 8
+[14-Oct-2024 01:28:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required './controllers/' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php on line 8
+[14-Oct-2024 01:29:14 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers): Failed to open stream: Permission denied in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php on line 8
+[14-Oct-2024 01:29:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required './controllers/' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php on line 8
+[14-Oct-2024 02:37:36 Europe/Berlin] PHP Warning:  Undefined variable $sanlorenzo in C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\footer.php on line 17
+[14-Oct-2024 02:37:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "sanlorenzo" in C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\footer.php:17
+Stack trace:
+#0 C:\xampp\htdocs\Practicas\elisawebmvc\web\views\template.php(37): include()
+#1 C:\xampp\htdocs\Practicas\elisawebmvc\web\controllers\controller.template.php(8): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Practicas\elisawebmvc\web\index.php(11): TemplateController->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\footer.php on line 17
+[14-Oct-2024 02:47:24 Europe/Berlin] PHP Warning:  Undefined variable $tiktok in C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\footer.php on line 24
+[14-Oct-2024 02:47:41 Europe/Berlin] PHP Warning:  Undefined variable $tiktok in C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\footer.php on line 24
+[14-Oct-2024 02:51:54 Europe/Berlin] PHP Warning:  Undefined variable $tiktok in C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\footer.php on line 24
+[14-Oct-2024 02:53:10 Europe/Berlin] PHP Warning:  Undefined variable $tiktok in C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\footer.php on line 24
+[14-Oct-2024 02:53:46 Europe/Berlin] PHP Warning:  Undefined variable $tiktok in C:\xampp\htdocs\Practicas\elisawebmvc\web\views\modules\footer.php on line 24
